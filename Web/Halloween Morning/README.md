@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Set HTTP Request Method to BREW -> Profit
 
 ## Context
 
@@ -20,14 +20,16 @@ Hint 1: Are you sure that there is a fixed set of HTTP methods ?
 
 ## Recon
 
-What you tried first, dead ends, and why.
+The HTTP Code 418 error is a well-known gag.
+We need to somehow use brew.
+Tried to make the request to /brew => received "I can't post anything? I'm a teapot"
+Tried to make the request method to be "BREW" but without the endpoint having /brew => 405 Method Not Allowed
 
 ## Vulnerability / Idea
 
-Root cause and the key insight.
+Make the teapot BREW somehow
 
 ## Exploitation Steps (Reproducible)
 
-```bash
-# commands to run from a clean environment
-```
+Send a HTTP BREW request to https://raiffeisen-tech-halloween-morning.chals.io/brew
+Receive the rtech{brewed_with_love} flag
