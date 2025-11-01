@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Decode -> Reverse -> Profit
 
 ## Context
 
