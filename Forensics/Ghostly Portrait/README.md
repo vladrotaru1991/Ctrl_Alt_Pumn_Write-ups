@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Decoded b64 message from mysterios_notes.txt hinted to use string to find the message, I've uploaded image to https://hexed.it/ and serach for flag keyword.
 
 ## Context
 

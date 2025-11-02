@@ -17,10 +17,10 @@ What you tried first, dead ends, and why.
 
 ## Vulnerability / Idea
 
-Root cause and the key insight.
+1. "Signing", "Exponent", and in the file the notation n, e, ciphertext all suggest RSA.
+2. "rushed the signing, reusing a fragment of an old exponent - a small one" this is the vulnerability and it suggests that wiener's attack will work
 
 ## Exploitation Steps (Reproducible)
 
-```bash
-# commands to run from a clean environment
-```
+3. I used a Wiener's attack online tool https://asecuritysite.com/ctf/rsa_ctf05
+4. The flag is rtech{THE_RITUALS_HAVE_WEAK_EXPONENTS}

@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Inspect Element -> Find Code in a HTML element -> Base64 Decode -> Profit
 
 ## Context
 
@@ -12,14 +12,23 @@ Hint 1: Sometimes the truth is hidden in plain SIGHT
 
 ## Recon
 
-What you tried first, dead ends, and why.
+Tried to right click on page, saw it is disabled.
+Opened Developer Tools panel using F12.
+Searched for the element containing the image.
+Found a div with class "encrypted-code" and found a code.
+
+When revisiting the page to write this writeup, found that there was a hidden button in
+"Dexter's right eye". Pressed it and the code was revealed. Oh well :D.
 
 ## Vulnerability / Idea
 
-Root cause and the key insight.
+There is probably a Base64 base encoded code hidden somewhere.
+Use Developer tools to check
 
 ## Exploitation Steps (Reproducible)
 
-```bash
-# commands to run from a clean environment
-```
+Use F12 to open Developer tools
+Search through the HTML elements
+Find a div with class "encrypted-code". It contains a code.
+Base64 decoded the code.
+Submit the rtech{th3_d4rk_p@$$3ng3r} flag

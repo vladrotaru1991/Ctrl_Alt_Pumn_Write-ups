@@ -15,14 +15,23 @@ Hint 2: Did you know we now have robots that can read hundreds of lines of text 
 
 ## Recon
 
-What you tried first, dead ends, and why.
+Basically everything. Press all the buttons
+Send all the "emails"
+Checked all the HTML
+Spent too much time looking into comments,
+Looked around the map. Zoomed out, found the pin, searched it on Google Maps didn't get any insight.
+Used hints, nothing.
+Took a 10 minute break as a team.
+Came back. Stefan read the hints, instantly cliked, solved it in 10 seconds.
 
 ## Vulnerability / Idea
 
-Root cause and the key insight.
+No initial insight.
+Hints + A break + A fresh pair of eyes
 
 ## Exploitation Steps (Reproducible)
 
-```bash
-# commands to run from a clean environment
-```
+Go to /robots.txt
+Receive a base64 encoded string. Decode it to receive "/text/404spirit.bak"
+Go to /text/404spirit.bak
+Receive another base64 encoded string. Decode it to receive the flag: rtech{404_boo_not_found}

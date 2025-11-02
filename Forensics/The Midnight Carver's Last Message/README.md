@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Used https://wireview.github.io/ for pcap analysis.Http traffic revealed the b64 message, x-encrytped (base64-xor) header hinted the message was encrypted then encoded. Challange instructions advised to look for anomalies in common protocols, reviewed all DNS queries, one query stood out as the subdomain was random, the subdoamin was the xor key. Used cybercheck to decode and decrypt payload. 
 
 ## Context
 
