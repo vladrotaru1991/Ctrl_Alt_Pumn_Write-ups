@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+SQL Injection -> Profit
 
 ## Context
 
@@ -16,14 +16,14 @@ Hint 1: What happens if you make the SQL query always return true?
 
 ## Recon
 
-What you tried first, dead ends, and why.
+From the start this looked like it required some SQL injection so we just went for it
 
 ## Vulnerability / Idea
 
-Root cause and the key insight.
+Use SQL injection to login as admin.
 
 ## Exploitation Steps (Reproducible)
 
-```bash
-# commands to run from a clean environment
-```
+Enter "admin' --" as the username and anything you want as the password.
+Login
+Receive the rtech{sp00ky_sql_1nj3ct10n_gh0st} flag
