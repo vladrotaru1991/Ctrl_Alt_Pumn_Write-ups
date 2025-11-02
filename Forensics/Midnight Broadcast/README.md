@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Spectogram -> Read -> Profit
 
 ## Context
 
@@ -16,7 +16,14 @@ Hint 1: Have you ever though about looking at music instead of listening to it?
 
 ## Recon
 
-What you tried first, dead ends, and why.
+Listened to the sound, found nothing
+Figured there's more to this
+Looked into tools that can analyze sound files.
+Learned about spectograms, found a way to run the file through one.
+Around second 25, You can see words in the spectogram.
+It's "LISTEN_TO_THE_DARK", inverted and upside down.
+Try the common flag prefix "rtech{..}" with it.
+It worked
 
 ## Vulnerability / Idea
 
