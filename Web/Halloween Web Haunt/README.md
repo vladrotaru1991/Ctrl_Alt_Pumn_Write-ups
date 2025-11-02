@@ -1,6 +1,6 @@
 ## TL;DR
 
-Go to /robots.txt -> Profit
+We the two pices of information "The flag hides in the shadows — not necessarily where mortal eyes expect it to be" and "robots that can read hundreds of lines of text in a second" hinted at the robots.txt file, accessing the file and the follow-up link (which was b64 encoded) eventually revealved the encoded fag. Used cyberchef for decoding.
 
 ## Context
 
