@@ -20,11 +20,11 @@ Try all the cyphers and decodes on https://cryptii.com/ and https://emn178.githu
 Give up, move to the next.
 Values stand out as possible Hexadecimal encoded values for letters. Try this and get REHSU. Reverse that to get USHER. Good singer
 Take a break.
-Think that maybe there's a link between the words. The Rene DESCARTES hint might be specific.
-Google Rene Descartes House Usher
-Find "The fall of the House of Usher" by Edgar Allan Poe
+Think that maybe there's a link between the words. The Rene DESCARTES hint might be specific. Like the "dripping numbers 6 and 4" in the first one.
+Notice a DES cypher in https://emn178.github.io/online-tools/. Try it again
+Try multiple options but it did not work.
+Another colleague tried the same but on https://encode-decode.com/des-encrypt-online/, where it just worked
 Try "House of Usher". It fails. Give up again.
-Use hints.
 Try HOUSEOFUSHER
 
 ## Vulnerability / Idea
@@ -34,5 +34,5 @@ All values seem to be somehow encoded. We need to figure out how.
 ## Exploitation Steps (Reproducible)
 
 Base64 decode first value and reverse the result => HOUSE
-Use a DES decoder for second value (found about this after getting the answer). Reverse the result => OF
+Use a DES decoder for second value. Reverse the result => OF
 Hexadecimal to UTF-8 convertor for last value. Reverse the result => USHER
