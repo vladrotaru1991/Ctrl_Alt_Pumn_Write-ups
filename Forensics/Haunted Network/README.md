@@ -1,6 +1,6 @@
 ## TL;DR
 
-One-paragraph solution summary.
+Used https://wireview.github.io/ for pcap analysis. Analyzed http traffic, found b64 encoded message, used cyberchef to decode it.
 
 ## Context
 
